@@ -1,9 +1,9 @@
+import math
+
 def pythagoras(a, b):
-    """직각삼각형 빗변 계산"""
-    return (a**2 + b**2)**0.5
+    c = math.sqrt(a**2 + b**2)
+    return c
 
-def circle(radius):
-    """원의 넓이 계산"""
-    import math
-    return math.pi * radius**2
-
+def circle(r):
+    area = math.pi * r**2
+    return area
