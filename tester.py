@@ -1,4 +1,11 @@
-c=5.0
-area = 314.1592653589793
-print(f'c = {c}')
-print(f'area = {area}')
+import geo.utils as utils
+
+a = 3
+b = 4
+r = 5
+
+c = utils.pythagoras(a, b)
+area = utils.circle(r)
+
+print(f"c = {c}")
+print(f"area = {area}")
